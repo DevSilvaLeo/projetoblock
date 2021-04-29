@@ -1,0 +1,31 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue-gradient" [containerInside]="false">
+    <mdb-navbar-brand style="font-size:20px;font-weight:bold;" class="white-text">
+        <a href="#">
+            <img style="width:70px" class="img-fluid" src="../../assets/images/leao.webp">
+        </a>
+        BlockNobre Solutions
+    </mdb-navbar-brand>
+    <links>
+        <ul class="white-text navbar-nav ml-auto">
+            <li class=nav-item>
+                <a class="#" class="nav-link waves-light" mdbWavesEffect>Home</a>
+            </li>
+            <li class=nav-item>
+                <a class="#" class="nav-link waves-light" mdbWavesEffect>Produtos</a>
+            </li>
+            <li class=nav-item>
+                <a class="#" class="nav-link waves-light" mdbWavesEffect>FAQ</a>
+            </li>
+            <li class="nav-item avatar dropdown ml-auto" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                    <img src="../../assets/images/user_account_profile_avatar.png" style="width:20px;" alt="" class="img-fluid rounded-circle z-depth-0">
+                </a>
+                <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+                    <!--<a class="dropdown-item waves-light" mdbWavesEffect href="#">Minha conta</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Sair</a>-->
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Entrar</a>
+                </div>
+            </li>
+        </ul>
+    </links>
+</mdb-navbar>

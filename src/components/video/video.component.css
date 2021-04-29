@@ -1,0 +1,13 @@
+.bannervideo{
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.video{
+    margin-top:200px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 60px;
+}
